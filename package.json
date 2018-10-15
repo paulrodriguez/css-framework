@@ -1,0 +1,15 @@
+{
+  "name": "flextrap",
+  "version": "1.0.0",
+  "description": "css framework classes with responsive grid layout using flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Paul Rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

@@ -1,0 +1,104 @@
+@media only screen and (max-width: 767px) {
+  .flex-col-1-12-phone {
+    width: 8.33333%; }
+  .flex-col-2-12-phone {
+    width: 16.66667%; }
+  .flex-col-3-12-phone {
+    width: 25%; }
+  .flex-col-4-12-phone {
+    width: 33.33333%; }
+  .flex-col-5-12-phone {
+    width: 41.66667%; }
+  .flex-col-6-12-phone {
+    width: 50%; }
+  .flex-col-7-12-phone {
+    width: 58.33333%; }
+  .flex-col-8-12-phone {
+    width: 66.66667%; }
+  .flex-col-9-12-phone {
+    width: 75%; }
+  .flex-col-10-12-phone {
+    width: 83.33333%; }
+  .flex-col-11-12-phone {
+    width: 91.66667%; }
+  .flex-col-12-12-phone {
+    width: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  .flex-col-1-12-tablet {
+    width: 8.33333%; }
+  .flex-col-2-12-tablet {
+    width: 16.66667%; }
+  .flex-col-3-12-tablet {
+    width: 25%; }
+  .flex-col-4-12-tablet {
+    width: 33.33333%; }
+  .flex-col-5-12-tablet {
+    width: 41.66667%; }
+  .flex-col-6-12-tablet {
+    width: 50%; }
+  .flex-col-7-12-tablet {
+    width: 58.33333%; }
+  .flex-col-8-12-tablet {
+    width: 66.66667%; }
+  .flex-col-9-12-tablet {
+    width: 75%; }
+  .flex-col-10-12-tablet {
+    width: 83.33333%; }
+  .flex-col-11-12-tablet {
+    width: 91.66667%; }
+  .flex-col-12-12-tablet {
+    width: 100%; } }
+
+@media only screen and (min-width: 1200px) {
+  .flex-col-1-12-desktop {
+    width: 8.33333%; }
+  .flex-col-2-12-desktop {
+    width: 16.66667%; }
+  .flex-col-3-12-desktop {
+    width: 25%; }
+  .flex-col-4-12-desktop {
+    width: 33.33333%; }
+  .flex-col-5-12-desktop {
+    width: 41.66667%; }
+  .flex-col-6-12-desktop {
+    width: 50%; }
+  .flex-col-7-12-desktop {
+    width: 58.33333%; }
+  .flex-col-8-12-desktop {
+    width: 66.66667%; }
+  .flex-col-9-12-desktop {
+    width: 75%; }
+  .flex-col-10-12-desktop {
+    width: 83.33333%; }
+  .flex-col-11-12-desktop {
+    width: 91.66667%; }
+  .flex-col-12-12-desktop {
+    width: 100%; } }
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.flex-dir-row {
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row; }
+
+.flex-dir-row-rev {
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+.flex-dir-col {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column; }
+
+.flex-dir-col-rev {
+  -webkit-flex-direction: column-reverse;
+  -moz-flex-direction: column-reverse;
+  flex-direction: column-reverse; }

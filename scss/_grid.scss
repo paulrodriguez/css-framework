@@ -1,0 +1,83 @@
+@mixin responsive_small_phone() {
+  @media only screen and (max-width: $small_phone) {
+    @content;
+  }
+}
+
+@mixin responsive_phone() {
+  @media only screen and (max-width: $phone) {
+    @content;
+  }
+}
+
+@mixin responsive_tablet() {
+  @media only screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin responsive_desktop() {
+  @media only screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex_direction($direction) {
+  -webkit-flex-direction: $direction;
+  -moz-flex-direction: $direction;
+  flex-direction: $direction;
+}
+
+@include responsive_phone() {
+  @for $i from 1 to 13 {
+    .flex-col-#{$i}-12-phone {
+      width: percentage($i/12);
+    }
+  }
+}
+
+@include responsive_tablet() {
+  @for $i from 1 to 13 {
+    .flex-col-#{$i}-12-tablet {
+      width: percentage($i/12);
+    }
+  }
+}
+
+@include responsive_desktop() {
+  @for $i from 1 to 13 {
+    .flex-col-#{$i}-12-desktop {
+      width: percentage($i/12);
+    }
+  }
+}
+
+.flex {
+  &-wrapper {
+    @include flexbox;
+  }
+
+  &-dir-row {
+    @include flex_direction(row);
+  }
+
+  &-dir-row-rev {
+    @include flex_direction(row-reverse);
+  }
+
+  &-dir-col {
+    @include flex_direction(column);
+  }
+
+  &-dir-col-rev {
+    @include flex_direction(column-reverse);
+  }
+}
